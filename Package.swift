@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXUCAnimationViewWrapper",
 				dependencies: [
 					"GXUCAnimationView",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCAnimationView",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCAnimationView-1.0.0-beta+20230220183523.xcframework.zip",
-			checksum: "b8cb9509193b260bb8bab162adf26bef1919cc93a83aa2e2cc5654e296bd0ef5"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCAnimationView-1.0.0-beta+20230228111720.xcframework.zip",
+			checksum: "aa5851817d860f69145f9712c46c5f5331bc483e332866371e28a45209d67046"
 		)
 	]
 )
