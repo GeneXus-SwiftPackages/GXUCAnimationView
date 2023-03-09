@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCAnimationView",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCAnimationView-1.0.0-beta+20230309154144.xcframework.zip",
-			checksum: "23b156787102592e3bcedfc14be3401ef2510a54f078d59cb480ea90dd2ea65b"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCAnimationView-1.0.0-beta+20230309171424.xcframework.zip",
+			checksum: "4a655bf1ff285e9892b055c8c78dc1c8be771423809bfd3fa90f0b73cf9bde8b"
 		)
 	]
 )
