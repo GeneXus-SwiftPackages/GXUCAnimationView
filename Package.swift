@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXUCAnimationViewWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.1.0-rc.1")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.1.0-rc.3")
 	],
 	targets: [
 		.target(name: "GXUCAnimationViewWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCAnimationView",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXUCAnimationView-1.1.0-rc.1.xcframework.zip",
-			checksum: "46fb0f0a0841d1738ef2642d1d7e04e7904fcdf08a8328dccb0ae736ef0ef7da"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXUCAnimationView-1.1.0-rc.3.xcframework.zip",
+			checksum: "03040d7f7d2e40614c325143411e36d22ab84612e6bc0e8deadfc0f9a5f3c765"
 		)
 	]
 )
