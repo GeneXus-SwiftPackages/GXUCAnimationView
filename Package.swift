@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXUCAnimationViewWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "2.0.0-beta.24"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "2.0.0-beta.25"),
 		.package(url: "https://github.com/airbnb/lottie-spm.git", .upToNextMinor(from: "4.4.3"))
 	],
 	targets: [
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCAnimationView",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCAnimationView-2.0.0-beta.24.xcframework.zip",
-			checksum: "4d0a031691eac15e625c7a41649dbeb7b6efb6d1c2320211cd24f0fe47302b3d"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCAnimationView-2.0.0-beta.25.xcframework.zip",
+			checksum: "a01fa24d7c9a9a5e13d9d2b1a838494a86705caf245dc3867800884121b124c4"
 		)
 	]
 )
