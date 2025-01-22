@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXUCAnimationView",
-	platforms: [.iOS("13.0"), .tvOS("13.0")],
+	platforms: [.iOS("15.0"), .tvOS("18.0")],
 	products: [
 		.library(
 			name: "GXUCAnimationView",
 			targets: ["GXUCAnimationViewWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-beta.8"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-beta.9"),
 		.package(url: "https://github.com/airbnb/lottie-spm.git", .upToNextMinor(from: "4.4.3"))
 	],
 	targets: [
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCAnimationView",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCAnimationView-3.0.0-beta.8.xcframework.zip",
-			checksum: "3984f63742425811244c5be53e490064b2b55117d12d5932df7c8d45484177b3"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCAnimationView-3.0.0-beta.9.xcframework.zip",
+			checksum: "77e71ce15b830265132d8943db9e94bc135ae6dd4a972a015b20934a11d9c998"
 		)
 	]
 )
